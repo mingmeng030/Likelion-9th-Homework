@@ -78,7 +78,8 @@ $ git push origin <브랜치명>
 
 **경은팀**
 
-**어진팀**
+[어진팀](https://github.com/mingmeng030/Likelion-9th-homework)
+"# Likelion-9th-homework" 
 
 **수진팀**
 
