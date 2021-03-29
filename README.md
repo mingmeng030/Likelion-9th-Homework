@@ -53,13 +53,6 @@ origin(원격저장소)에 <브랜치명> 브랜치를 푸쉬
 ## 과제 제출방법
 
 
----
-##주의사항
-pull request 보낼 때 origin/[main or master]에서 upstream/[자신의 이니셜 브랜치]로 보내
-과제 시작 전 git pull upstream master 로 업데이트된 README.md 파일 받아오기 (팀장 레포 master 브랜치의 내용을 받아오는 명령)
----
-
-
 ### 1. **자신의 브랜치**로 원격 저장소에 업로드
 
 ```bash
