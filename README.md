@@ -1,11 +1,28 @@
 # 🦁 멋쟁이 사자처럼 9기 at 상명대학교 🦁
 
-## 김현빈팀 과제 제출 레포
+## 김어진 팀 과제 제출 레포
+
+---
+
+## 과제 공지
+
+### 
+  
+  1주차: 웹 기초 정리 및 Github 기초 (3/29 ~ 4/7)
+
+  1. 웹 기초 챕터 전체(오리엔테이션-Github 배포)와 Django 챕터의 Git 사용법 수강
+  2. 강의 내용을 파일에 정리 (.txt 혹은 .md 등 파일 형식 자유)
+  3. 자신의 Github 계정에 repository 생성 후 파일 올리기 (repository 이름 자유롭게 설정)
+  4. 과제 완료 후 해당 repository 주소 과제 제출용 단톡방에 링크 전송
+
+
+|주차|커리큘럼|과제 내용|
+|:---:|:---:|:---:|
+|1주차|OT ~ Github 배포|레포지토리 만들어 강의 내용 정리하여 push 하고 링크 공유하기|
 
 ---
 
 ## 과제 제출 세팅하기 (최초 1회만)
-
 
 
 ```bash
@@ -30,13 +47,13 @@ origin(원격저장소)에 <브랜치명> 브랜치를 푸쉬
 ![Untitled](https://user-images.githubusercontent.com/62318430/112156918-0aa48000-8c2a-11eb-97e2-389029f76028.png)
 
 
-클릭 후 자신의 브랜치가 잘 추가 되었는지 확인 ❤
+클릭 후 자신의 브랜치가 잘 추가 되었는지 확인
 
 ---
-## 과제 제출하기 ‼‼‼‼‼‼
+## 과제 제출방법
 
 
-### 1. ✌**자신의 브랜치**✌로 원격 저장소에 업로드
+### 1. **자신의 브랜치**로 원격 저장소에 업로드
 
 ```bash
 $ git add .
@@ -74,12 +91,13 @@ $ git push origin <브랜치명>
 
 ---
 
+
 ## 다른 팀 레포 놀러가기 🏄‍♂️
 
 [경은팀](https://github.com/GyeongEun-Kim/Likelion-9th-HW)
 
-[어진팀](https://github.com/mingmeng030/Likelion-9th-homework)
+[어진팀](https://github.com/mingmeng030/Likelion-9th-HW)
 
-[수진팀](https://github.com/GyeongEun-Kim/Likelion-9th-HW)
+[수진팀](https://github.com/sooziini/likelion9th-assignment)
 
 [현빈팀](https://github.com/myunbongs/LikeLion_9_HW)
