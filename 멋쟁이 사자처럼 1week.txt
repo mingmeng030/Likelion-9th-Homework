@@ -1,0 +1,168 @@
+<like lion 1week - 웹 기초 & Django(Git)>
+
+◼ 웹 기초 목차
+• 오리엔테이션
+• Web & Web Service
+• 웹 서버를 만드는 방법
+• HTML - 1
+• HTML - 2
+• HTML - 3
+• Bootstrap
+• Github 배포
+
+
+
+◼오리엔테이션
+ 
+
+
+◼Web & Web Service
+• server : 요청하는 서비스들에 대해서 응답하는 입장 (response // server는 응답하는 입장)
+• client : 자기가 원하는 정보를 가지고 있는 주문한 정보를 처리할 수 있는 (request // client는 요청하는 입장)  
+웹서비스를 만든다 = 서버로써 작동할 수 있는 프로그램을 만든다 / 요청을 처리해 줄 수 있는 프로그램을 만든다
+   -> client 와 server는 *P2P 관계
+
+• P2P(Peer- To - Peer)
+-친구에서 친구로 = 모두가 서버이자 모두가 클라이언트
+
+• Request의 종류 
+- 갖다 줘 = GET
+- 처리해 줘 = POST
+( request들은 HTML파일이 오가는것 )
+
+• WWW(World Wide Web)
+
+• 웹 브라우저
+- 웹 서버에서 쌍방향 통신하는 HTML 문서나 파일과 연동하고 출력하는 응용 소프트웨어이다. 
+   google, chrome, enternet explorer 등이 있다.
+
+
+
+◼웹 서버를 만드는 방법
+• 서버 컴퓨터
+- 빠른 컴퓨팅 능력
+- 24시간 켜 있어야함 
+- 발열 냉각장치
+- 클라이언트 수 고려
+- 보안 중요
+
+• 서버 프로그램을 만드는 두 가지 방법
+1. 내 컴퓨터를 서버컴퓨터화 시키기 (로컬환경세팅)
+  : 웹서버 SW : Apache, Microsoft IIS
+2. 이 세상 어딘가의 서버 컴퓨터 인터넷으로 빌리기 (웹호스팅)
+  : 웹 호스팅 업체 : Cloud9, GitHub
+   ->우리는 GitHub를 이용할 예정
+
+
+
+◼ HTML - 1
+태그의 종류를 나열하듯 외우며 공부하지 말고 문법형식과 동작방식에 집중
+과제 : https://www.codecademy.com/ -> 가입후 Introduction to html 무료코스 완주
+
+
+
+◼ HTML - 2
+HTML은 애초에 '꾸미는 언어'가 아님 / 꾸미는 언어는 CSS
+• HTML 코드
+: 문서의 전체를 설명해 주기 위한 HTML 코드
+- HTML로 작성된 문서인것을 알려주는 태그
+- 직접 화면에 등장하진 않지만 이 문서를 설명하는 태그
+- 직접적으로 화면에 등장하는 문서에서 보이는 태그
+
+
+
+◼ HTML - 3
+•<form>~</form>
+•<form action = "전송받을 대상">
+• <input type = "text" name = "id"> 
+• <input type = "password" name = "password"> 
+• <input type = "submit"> 
+• <textarea cols = " " rows ="">~</textarea> : 입력공간 넓히기
+• <img src = " " width = 300> : 이미지 넣기 & 이미지 크기조정
+• <select>~</select> : 항목 선택
+• <option value = "goodday">좋은날</option> : 옵션만들어주기
+• <ol>~</ol> : 순서가 있는 리스트
+• <li>~</li> : ol 태그와 같이 쓰는
+• <a href = " "> : 링크 걸어주기
+
+- visual studio code 단축키
+• ol>li*3 + tab : 순서가 있는 리스트 단축키
+• ul>li*4 + tab : 순서가 없는 리스트 단축키
+• ! + tab 하면 기본셋팅 단축키 
+• ctrl + n : 새로운 파일 생성
+
+
+
+◼Bootstrap
+• Bootstrap 이란?
+: CSS/JavaScript 기반 웹 프레임워크 (웹 프레임워크 : 웹을 만드는 재료들의 모음) , 오픈소스로 만들어짐
+ 반응형 웹 지원(자동화면조정), 브라우저 호환가능
+ -> site : http://bootstrapk.com/
+
+< Bootstrap 사용준비 > (head 태그안에 넣기)
+• <!-- 합쳐지고 최소화된 최신 CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+• <!-- 부가적인 테마 -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+• <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+• jquery code 넣기
+ <script
+   src="https://code.jquery.com/jquery-3.6.0.js"
+   integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+   crossorigin="anonymous"></script>
+
+• <div class = container>~</div> : 맨앞 공간 넣기
+• <input type = "submit" class = "btn btn-primary"> : 제출버튼 꾸미기
+
+-> Bootstrap 페이지에서 소스 긁어 쓰는 법 익히기
+
+
+
+◼Github 배포
+• Github의 기능
+1. code 저장 기능
+2. Undo 기능
+3. 협업기능
+   + Web Hosting 기능
+ 
+ -> Github repository 생성하기
+
+
+
+<Django>
+◼Git 사용법
+•Git과 Github 차이점
+- Git은 자신이 작업한 코드를 저장하는 것
+- Git의 정보를(자신이 작업한 코드를) 다른사람과 공유하는 플랫폼
+
+• 파일의 저장 순서
+1. 저장할 파일 선택
+2. 선택한 파일 저장
+
+• vscode에서 github로 연결하기
+1. git config -global user.name "nadoyeon"
+2. git config -global user.name "www.naver.com"
+3. echo "# nadoyeon.github.io" >> README.md
+   git init
+   git add README.md
+   git commit -m "first commit"
+   git branch -M main
+   git remote add origin https://github.com/nadoyeon/nadoyeon.github.io.git
+   git push -u origin main 
+
+• terminal 로 Git을 관리하는 명령어
+- echo "# nadoyeon.github.io" >> README.md : readme.md 라는 파일을 만들고 nadoyeon.github.io 라고 내용을 입력하라는 것
+- git init : 현재 디렉토리를 새로운 git 저장소로 초기화 한다는 뜻
+- git add : 파일을 저장하고 기록하는 것, 파일을 staging area에 넣는 명령어
+- git commit : git add로 staging area에 올린 파일들을 저장해주는 명령어
+- git branch : 현재 작업중인 프로젝트에서 새로운 분기점을 만드는 것
+- git remote : github 의 repository를 연결해주는 명령어 
+- git push : 작업한 내용을 올려주는 명령어
+
+• Staging area :  ‘커밋될 예정인 내용들’을 디스크에 저장할 공간
+
+• .gitignore : 불필요한 파일이 github 등의 repository에 올라가지 않도록 하는 것
